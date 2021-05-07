@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display"></div>
+        <div class="calculator-buttons">
+            <button id="limparDisplay">CE</button>
+            <button id="limparCalculo" onclick="clean()">C</button>
+            <button id="backspace" onclick="back()">«</button>
+            <button id="operadorDividir" onclick="insert('/')">/</button>
+            <button id="tecla7" onclick="insert('7')">7</button>
+            <button id="tecla8" onclick="insert('8')">8</button>
+            <button id="tecla9" onclick="insert('9')">9</button>
+            <button id="operadorMultiplica" onclick="insert('*')">*</button>
+            <button id="tecla4" onclick="insert('4')">4</button>
+            <button id="tecla5" onclick="insert('5')">5</button>
+            <button id="tecla6" onclick="insert('6')">6</button>
+            <button id="operadorDiminui" onclick="insert('-')">-</button>
+            <button id="tecla1" onclick="insert('1')">1</button>
+            <button id="tecla2" onclick="insert('2')">2</button>
+            <button id="tecla3" onclick="insert('3')">3</button>
+            <button id="operadorSoma">+</button>
+            <button id="inverter">±</button>
+            <button id="tecla0" onclick="insert('0')">0</button>
+            <button id="decimal" onclick="insert('.')">,</button>
+            <button id="igual">=</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
